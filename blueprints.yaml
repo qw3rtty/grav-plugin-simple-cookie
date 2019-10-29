@@ -1,8 +1,6 @@
 name: Simple Cookie
 version: 0.1.0
-description: "Simple cookie plugin is based on the popular CookieConsent JS-library.
-            For Advanced Opt-In/Opt-Out configurations you can use the
-            'Custom configuration' option."
+description: "Simple cookie plugin is based on the popular CookieConsent JS-library. For Advanced Opt-In/Opt-Out configurations you can use the 'Custom configuration' option."
 icon: shield
 author:
   name: Thomas Schwarz
