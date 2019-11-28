@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
 	if (pluginConfig.custom)
 	{
 		cookieconsentInitialse = JSON.parse(
-			pluginConfig.custom_config.replace(/\s/g,'')
+			pluginConfig.custom_config.replace(/\r?\n|\r/g,'')
 		);
 	}
 
