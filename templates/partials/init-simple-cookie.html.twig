@@ -14,9 +14,10 @@ window.addEventListener("load", function() {
 	{# Check if we need the custom configuration. #}
 	if (pluginConfig.custom)
 	{
-		cookieconsentInitialse = JSON.parse(
+		var customInitialise = JSON.parse(
 			pluginConfig.custom_config.replace(/\r?\n|\r/g,'')
 		);
+		cookieconsentInitialse = Object.assign({}, cookieconsentInitialse, customInitialise);
 	}
 
 	{# Initialize cookie consent banner #}
