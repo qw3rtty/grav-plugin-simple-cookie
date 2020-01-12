@@ -1,3 +1,9 @@
+# v0.1.3
+##  12/01/2020
+
+1. [](#enhancement)
+    * Merge cusotm configuration with default configuration
+
 # v0.1.2
 ##  28/11/2019
 
