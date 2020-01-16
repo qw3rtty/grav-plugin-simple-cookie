@@ -93,7 +93,7 @@ The plugin is based on the [CookieConsent](https://cookieconsent.osano.com/) JS-
 
 ## Other
 
-If you got some problems, improvements or changes let me know.
+If you got some problems, improvements or changes let me know.  
 I appreciate every single help!
 
 
