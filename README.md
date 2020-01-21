@@ -36,6 +36,8 @@ Here is the default configuration and an explanation of available options:
 ```yaml
 enabled: true
 custom: false
+position: bottom-right
+palette: gray
 ```
 
 Note that if you use the Admin Plugin, a file with your configuration named simple-cookie.yaml will be saved in the `user/config/plugins/`-folder once the configuration is saved in the Admin.

@@ -1,2 +1,4 @@
 enabled: true
 custom: false
+position: bottom-right
+palette: gray
