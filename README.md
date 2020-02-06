@@ -92,6 +92,10 @@ custom_config:
 
 The plugin is based on the [CookieConsent](https://cookieconsent.osano.com/) JS-libary which is developed by [Osano](https://www.osano.com/).
 
+## Contributing
+
+If you want to contribute create an issue or an pull request.
+
 
 ## Other
 
