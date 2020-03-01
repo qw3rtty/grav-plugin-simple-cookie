@@ -95,12 +95,11 @@ The plugin is based on the [CookieConsent](https://cookieconsent.osano.com/) JS-
 ## Contributing
 
 If you want to contribute create an issue or an pull request.
-
+I appreciate every single help!
 
 ## Other
 
 If you got some problems, improvements or changes let me know.  
-I appreciate every single help!
 
 
 ```
