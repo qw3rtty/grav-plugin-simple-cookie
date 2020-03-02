@@ -61,40 +61,34 @@ function createCookieContent(config)
 {
 	var cookieContent = {};
 
+	cookieContent.message = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_MESSAGE'|t }}";
 	if (config.banner_message)
 	{
 		cookieContent.message = config.banner_message;
 	}
-	else
-	{
-		cookieContent.message = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_MESSAGE'|t }}";
-	}
 
+	cookieContent.dismiss = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_DISMISS'|t }}";
 	if (config.banner_dismiss)
 	{
 		cookieContent.dismiss = config.banner_dismiss;
 	}
-	else
+
+	cookieContent.allow = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_ACCEPT'|t }}";
+	if (config.banner_accept)
 	{
-		cookieContent.dismiss = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_DISMISS'|t }}";
+		cookieContent.allow = config.banner_accept;
 	}
 
+	cookieContent.link = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_ACCEPT'|t }}";
 	if (config.banner_policy)
 	{
 		cookieContent.link = config.banner_policy;
 	}
-	else
-	{
-		cookieContent.link = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_ACCEPT'|t }}";
-	}
 
+	cookieContent.href = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_POLICY'|t }}";
 	if (config.informations)
 	{
 		cookieContent.href = config.informations;
-	}
-	else
-	{
-		cookieContent.href = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_POLICY'|t }}";
 	}
 
 	return cookieContent;

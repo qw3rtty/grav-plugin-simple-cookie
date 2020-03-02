@@ -1,5 +1,5 @@
 name: Simple Cookie
-version: 0.1.4
+version: 0.1.5
 description: "Simple cookie plugin is based on the popular CookieConsent JS-library. For Advanced Opt-In/Opt-Out configurations you can use the 'Custom configuration' option."
 icon: shield
 author:
@@ -36,6 +36,17 @@ form:
         top: Banner top
         bottom-left: Floating left
         bottom-right: Floating right
+
+    compliance:
+      type: select
+      size: medium
+      label: Compliance
+      default: info
+      help: Indicates which mode the popup should have.
+      options:
+        info: Info
+        opt-in: Opt-In
+        opt-out: Opt-Out
 
     layout:
       type: select
