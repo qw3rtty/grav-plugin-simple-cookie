@@ -1,6 +1,6 @@
 # Simple Cookie Plugin
 
-The **Simple Cookie** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav). The plugin is based on the popular [CookieConsent](https://cookieconsent.osano.com/) JS-library. For Advanced Opt-In/Opt-Out configurations you can use the 'Custom configuration' option.
+The **Simple Cookie** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav). The plugin is based on the popular **[CookieConsent](https://cookieconsent.osano.com/) JS-library**. For Advanced Opt-In/Opt-Out configurations you can use the 'Custom configuration' option.
 
 ## Installation
 
