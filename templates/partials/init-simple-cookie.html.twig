@@ -71,6 +71,7 @@ function createCookieContent(config)
 	if (config.banner_dismiss)
 	{
 		cookieContent.dismiss = config.banner_dismiss;
+		cookieContent.deny = config.banner_dismiss;
 	}
 
 	cookieContent.allow = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_ACCEPT'|t }}";
