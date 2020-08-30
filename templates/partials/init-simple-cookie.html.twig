@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 	}
 
 	{# Initialize cookie consent banner #}
-	new CookieConsent(cookieconsentInitialse);
+	window.cookieconsent.initialise(cookieconsentInitialse);
 });
 
 {# Creates the cookie consent palette/color config. #}
@@ -71,14 +71,8 @@ function createCookieContent(config)
 	if (config.banner_dismiss)
 	{
 		cookieContent.dismiss = config.banner_dismiss;
+		cookieContent.deny = config.banner_dismiss;
 	}
-
-	cookieContent.deny = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_DENY'|t }}";
-	if (config.banner_deny)
-	{
-		cookieContent.deny = config.banner_deny;
-	}
-
 
 	cookieContent.allow = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_ACCEPT'|t }}";
 	if (config.banner_accept)
