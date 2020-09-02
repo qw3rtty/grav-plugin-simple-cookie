@@ -111,6 +111,16 @@ form:
       help: The text for the policy link.
       validate:
         type: text
+    
+    banner_policytarget:
+      type: select
+      label: Policy link target
+      help: target in which the link is to open
+      default: _blank
+      options:
+        _blank: new tab
+        _self: current tab
+        _new: new window
 
     custom:
       type: toggle
