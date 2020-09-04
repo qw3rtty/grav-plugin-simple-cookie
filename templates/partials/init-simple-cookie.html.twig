@@ -97,6 +97,12 @@ function createCookieContent(config)
 	{
 		cookieContent.href = config.informations;
 	}
+	
+	cookieContent.target = "{{ 'PLUGINS.SIMPLE_COOKIE.BANNER_POLICYTARGET'|t }}";
+	if (config.banner_policytarget)
+	{
+		cookieContent.target = config.banner_policytarget;
+	}
 
 	return cookieContent;
 }
