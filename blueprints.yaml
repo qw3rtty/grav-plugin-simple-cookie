@@ -8,7 +8,7 @@ author:
 homepage: https://github.com/tomschwarz/grav-plugin-simple-cookie
 keywords: grav, plugin, cookie, cookieconsent, simple, opt-in, opt-out
 bugs: https://github.com/tomschwarz/grav-plugin-simple-cookie/issues
-docs: https://github.com/tomschwarz/grav-plugin-simple-cookie/blob/develop/README.md
+docs: https://github.com/tomschwarz/grav-plugin-simple-cookie/blob/master/README.md
 license: MIT
 
 form:
